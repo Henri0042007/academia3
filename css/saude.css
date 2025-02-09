@@ -1,9 +1,8 @@
-/* Cabeçalho */
 main h1 {
     text-align: center;
     color: #000000;
     margin-top: 20px;
-    font-size: 2.5rem;
+    font-size: 2.5rem; 
 }
 
 main p {
@@ -12,16 +11,14 @@ main p {
     font-size: 1.1rem;
 }
 
-/* Títulos dos Alongamentos (é bom saber)*/
+
 main h2 {
     color: #000000;
     margin-top: 40px;
     font-size: 1.8rem;
     border-left: 4px solid #000000;
     padding-left: 10px;
-    
 }
-
 
 main ul {    
     list-style: none; 
@@ -43,6 +40,67 @@ main ul li:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+
+
 section {
-    padding: 0 10vw 0 10vw;
+    padding: 0 10vw; 
+}
+
+
+@media (max-width: 768px) {
+    
+    main h1 {
+        font-size: 2rem; 
+    }
+
+ 
+    main p {
+        font-size: 1rem;
+        margin: 10px 10px;
+    }
+
+
+    main h2 {
+        font-size: 1.6rem;
+        margin-top: 30px;
+    }
+
+
+    main ul li {
+        padding: 10px;
+        font-size: 1rem; 
+    }
+
+    
+    section {
+        padding: 0 5vw; 
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    main h1 {
+        font-size: 1.5rem; 
+    }
+
+    
+    main p {
+        font-size: 0.9rem; 
+    }
+
+    
+    main h2 {
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+
+    main ul li {
+        padding: 8px; 
+        font-size: 0.9rem;
+    }
+
+    section {
+        padding: 0 3vw;
+    }
 }
