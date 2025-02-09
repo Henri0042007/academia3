@@ -1,0 +1,48 @@
+/* Cabeçalho */
+main h1 {
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+main p {
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 1.1rem;
+}
+
+/* Títulos dos Alongamentos (é bom saber)*/
+main h2 {
+    color: #000000;
+    margin-top: 40px;
+    font-size: 1.8rem;
+    border-left: 4px solid #000000;
+    padding-left: 10px;
+    
+}
+
+
+main ul {    
+    list-style: none; 
+    padding: 0;
+    margin: 0 20px 30px 20px;
+}
+
+main ul li {
+    background:  #2a2d30; 
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: white;
+}
+
+main ul li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+section {
+    padding: 0 10vw 0 10vw;
+}

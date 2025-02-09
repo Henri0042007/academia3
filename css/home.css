@@ -1,0 +1,22 @@
+.imagem-redonda {
+    width: 500px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 350px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 1%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner sem distorção */
+}
+.conteudo {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.imagem-redonda {
+    width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 1%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner sem distorção */
+}
+
+.texto {
+    font-size: 1em; /* Ajuste o tamanho do texto conforme necessário */
+}
