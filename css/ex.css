@@ -22,7 +22,7 @@ main section.esportes ul {
 main section.esportes ul li {
     width: 20%;
     background-color: white;
-    margin: 2vw 2vw 2vw 2vw;
+    margin: 2vw 2.5vw 2vw 2.5vw;
     padding: 2vw 2vw 2vw 2vw;
     border-radius: 20px;
 }
