@@ -7,13 +7,42 @@
 .texto {
     font-size: 1em; 
 }
-.home{
-    background-image: url(../src/treino2.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 3vw 2vw 15vw;
-    border-radius: 1vw ;
-    border:  #2a2d30 solid 0.5vw;
+.imgtext {
+    display: flex;          
+    justify-content: flex-start; 
+    align-items: flex-start;  
+}
+
+.imagem-container {
+    flex: 1;  
+    max-width: 50%;
+    margin-right: 20px;  
+}
+
+.imagem-container img {
+    width: 100%;  
+    height: auto;      
+    display: block;   
+}
+
+.texto-container {
+    flex: 2;  
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+.texto-container h2,
+.texto-container p {
+    margin: 10px 0;
+    font-size: 1.5vw;
+}
+.texto-container h2 {
+    text-align: left;
+    font-size: 3vw;
+}
+.texto-container h3 {
+    font-size: 2.5vw;
 }
 .intro h2{
     text-align: center;
@@ -60,4 +89,7 @@
     text-align: center;
     font-size: 1.7rem;
     margin: 4vw 0 2vw 0;
+}
+.textc {
+    text-align: center;
 }
