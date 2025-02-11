@@ -4,32 +4,74 @@
     gap: 20px;
     padding: 20px;
     background-color: #f9f9f9;
+    flex-wrap: wrap;
 }
 
 #about-us .imagem {
     flex: 1;
-    max-width: 400px; 
+    max-width: 400px;
     border-radius: 10px;
-    object-fit: cover; 
+    object-fit: cover;
+    width: 100%;
 }
 
 #about-us .texto {
     flex: 2;
     font-size: 1.3em;
-    color: #333; 
-    padding: 10px; 
+    color: #333;
+    padding: 10px;
 }
 
 #about-us .texto p {
     margin-bottom: 5px;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
 }
 
 #about-us .texto h3 {
-    margin-top: 30px;                
-    margin-bottom: 10px; 
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 #about-us h2 {
     margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    #about-us {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    #about-us .imagem {
+        max-width: 100%;
+    }
+
+    #about-us .texto {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 480px) {
+    #about-us {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    #about-us .imagem {
+        max-width: 100%;
+    }
+
+    #about-us .texto {
+        font-size: 1em;
+    }
+
+    #about-us .texto h3 {
+        margin-top: 20px;
+    }
+
+    #about-us .texto p {
+        margin-bottom: 10px;
+    }
 }

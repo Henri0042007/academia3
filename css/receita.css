@@ -1,0 +1,73 @@
+.receitas {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+    margin: 1vw 0 4vw 0;
+    line-height: 3vw;
+}
+.receitas h2{
+    font-size: 2.4rem;
+}
+.receitas p {
+    color: #888888;
+    font-size: 1.3rem;
+    margin: 0 15vw 0 15vw;
+}
+.rece{
+    display: flex;
+}
+.rece2{
+    display: flex;
+}
+.mae{
+    background-color: #888888;
+    border-radius: 2vw;
+}
+.mae img{
+    border-radius: 1.7vw;
+    border: white solid 0.5vw;
+}
+.sopa{
+padding: 4vw;
+margin: 0 13vw 0 2vw;
+}
+.sopa h2{
+    font-size: 1.3vw;
+    margin: 2vw 0 2vw 0;
+}
+.sopa p{
+    line-height: 2vw;
+}
+.torta{
+    padding: 4vw;
+    margin: 0 2vw 0 13vw;
+}
+.torta h2{
+    font-size: 1.3vw;
+    margin: 2vw 0 2vw 0;
+}
+.torta p{
+    line-height: 2vw;
+}
+.suco{
+    padding: 4vw;
+    margin: 0 13vw 0 2vw;
+}
+.suco h2{
+    font-size: 1.3vw;
+    margin: 2vw 0 2vw 0;
+}
+.suco p{
+     line-height: 2vw;
+}
+.salada{
+    padding: 4vw;
+    margin: 0 2vw 0 13vw;
+}
+.salada h2{
+    font-size: 1.3vw;
+    margin: 2vw 0 2vw 0;
+}
+.salada  p{
+    line-height: 2vw;
+}
+
