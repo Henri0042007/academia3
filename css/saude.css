@@ -105,3 +105,6 @@ section {
         padding: 0 3vw;
     }
 }
+footer {
+    display: flex;
+ }

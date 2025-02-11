@@ -92,4 +92,6 @@
 }
 .textc {
     text-align: center;
+}footer {
+   display: flex;
 }

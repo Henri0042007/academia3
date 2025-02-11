@@ -118,10 +118,13 @@ footer nav ul li a:hover {
 
 footer p {
     margin-top: 1vw;
-    line-height: 1.5;
+    line-height: 0.4rem;
     font-size: 1rem;
     padding: 0 15vw;
 }
+footer p:first-child {
+    margin-top: 3vw;
+} 
 
 footer span {
     font-style: italic;
