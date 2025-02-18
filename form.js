@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var formContainer = document.getElementById('form-container');
+    let formContainer = document.getElementById('form-container');
 
-    var formHtml = `
+    let formHtml = `
         <form id="routineForm">
             <div class="form-group">
                 <label for="name">Nome:</label>
@@ -44,17 +44,17 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('routineForm').addEventListener('submit', function(event) {
         event.preventDefault();
 
-        var name = document.getElementById('name').value;
-        var age = document.getElementById('age').value;
-        var height = parseFloat(document.getElementById('height').value);
-        var weight = parseFloat(document.getElementById('weight').value);
-        var diet = document.getElementById('diet').value;
-        var exercise = document.getElementById('exercise').value;
+        let name = document.getElementById('name').value;
+        let age = document.getElementById('age').value;
+        let height = parseFloat(document.getElementById('height').value);
+        let weight = parseFloat(document.getElementById('weight').value);
+        let diet = document.getElementById('diet').value;
+        let exercise = document.getElementById('exercise').value;
 
-        var imc = weight / (height * height);
+        let imc = weight / (height * height);
         imc = imc.toFixed(2);
 
-        var result = `Nome: ${name}<br>Idade: ${age}<br>Altura: ${height} m<br>Peso: ${weight} kg<br>Você se alimenta bem? ${diet}<br>Você pratica exercícios regularmente? ${exercise}<br><br><strong>Seu IMC é: ${imc}</strong>`;
+        let result = `Nome: ${name}<br>Idade: ${age}<br>Altura: ${height} m<br>Peso: ${weight} kg<br>Você se alimenta bem? ${diet}<br>Você pratica exercícios regularmente? ${exercise}<br><br><strong>Seu IMC é: ${imc}</strong>`;
         document.getElementById('result').innerHTML = result;
     });
 });
