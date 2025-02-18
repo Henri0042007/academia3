@@ -92,3 +92,84 @@
 footer {
     display: flex;
 }
+@media (max-width: 1024px) {
+    .receitas h2 {
+        font-size: 2rem;
+    }
+
+    .receitas p {
+        font-size: 1.2rem;
+        margin: 0 10vw;
+    }
+
+    .rece {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .sopa, .torta, .suco, .salada {
+        margin: 0 5vw; 
+        flex: 1 1 90%; 
+    }
+
+    .sopa h2, .torta h2, .suco h2, .salada h2 {
+        font-size: 2vw;
+    }
+
+    .sopa p, .torta p, .suco p, .salada p {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .receitas h2 {
+        font-size: 1.8rem;
+    }
+
+    .receitas p {
+        font-size: 1.1rem;
+        margin: 0 5vw;
+    }
+
+    .rece {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sopa, .torta, .suco, .salada {
+        margin: 0 2vw;
+        flex: 1 1 100%; 
+    }
+
+    .sopa h2, .torta h2, .suco h2, .salada h2 {
+        font-size: 3vw;
+    }
+
+    .sopa p, .torta p, .suco p, .salada p {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .receitas h2 {
+        font-size: 1.5rem;
+    }
+
+    .receitas p {
+        font-size: 1rem;
+        margin: 0 3vw;
+    }
+
+    .sopa, .torta, .suco, .salada {
+        margin: 0 1vw;
+        flex: 1 1 100%;
+    }
+
+    .sopa h2, .torta h2, .suco h2, .salada h2 {
+        font-size: 4vw;
+    }
+
+    .sopa p, .torta p, .suco p, .salada p {
+        font-size: 3vw;
+    }
+}
